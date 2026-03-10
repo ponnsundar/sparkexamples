@@ -12,7 +12,6 @@ bundle:
   name: spark_databricks_project
 
 workspace:
-  host: ${DATABRICKS_HOST}
   root_path: /Workspace/Users/${workspace.current_user.userName}/spark_databricks_project
 
 sync:
@@ -477,5 +476,3 @@ resources:
 targets:
   default:
     default: true
-    workspace:
-      host: ${DATABRICKS_HOST}
