@@ -51,7 +51,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_02_most_important_rows_priority
           spark_python_task:
@@ -61,7 +64,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_03_adding_count_to_source
           spark_python_task:
@@ -71,7 +77,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_04_limiting_collect_set
           spark_python_task:
@@ -81,7 +90,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_05_structs_column_names_values
           spark_python_task:
@@ -91,7 +103,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_06_merge_two_rows
           spark_python_task:
@@ -101,7 +116,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_07_exploding_structs_array
           spark_python_task:
@@ -111,7 +129,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_08_display_spark_sql_version
           spark_python_task:
@@ -121,7 +142,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_09_using_csv_data_source
           spark_python_task:
@@ -131,7 +155,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_10_finding_ids_word_in_array
           spark_python_task:
@@ -141,7 +168,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_11_dataset_flatmap
           spark_python_task:
@@ -151,7 +181,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_12_reverse_engineering_show
           spark_python_task:
@@ -161,7 +194,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_13_flattening_array_columns
           spark_python_task:
@@ -171,7 +207,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_14_most_populated_cities
           spark_python_task:
@@ -181,7 +220,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_15_upper_standard_function
           spark_python_task:
@@ -191,7 +233,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_16_explode_standard_function
           spark_python_task:
@@ -201,7 +246,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_17_difference_days_dates
           spark_python_task:
@@ -211,7 +259,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_18_counting_years_months
           spark_python_task:
@@ -221,7 +272,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_19_null_fields_schema
           spark_python_task:
@@ -231,7 +285,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_20_add_days_to_date
           spark_python_task:
@@ -241,7 +298,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_21_using_udfs
           spark_python_task:
@@ -251,7 +311,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_22_calculating_aggregations
           spark_python_task:
@@ -261,7 +324,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_23_max_values_per_group
           spark_python_task:
@@ -271,7 +337,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_24_collect_values_per_group
           spark_python_task:
@@ -281,7 +350,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_25_multiple_aggregations
           spark_python_task:
@@ -291,7 +363,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_26_pivot_single_row_matrix
           spark_python_task:
@@ -301,7 +376,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_27_pivot_cost_avg_collect
           spark_python_task:
@@ -311,7 +389,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_28_pivoting_multiple_columns
           spark_python_task:
@@ -321,7 +402,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_29_exam_assessment_report
           spark_python_task:
@@ -331,7 +415,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_30_long_to_wide_format
           spark_python_task:
@@ -341,7 +428,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_31_bestsellers_per_genre
           spark_python_task:
@@ -351,7 +441,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_32_salary_gap_per_dept
           spark_python_task:
@@ -361,7 +454,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_33_running_total
           spark_python_task:
@@ -371,7 +467,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_34_diff_consecutive_rows
           spark_python_task:
@@ -381,7 +480,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_35_arrays_to_string
           spark_python_task:
@@ -391,7 +493,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_36_percent_rank
           spark_python_task:
@@ -401,7 +506,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_37_first_non_null_per_group
           spark_python_task:
@@ -411,7 +519,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_38_longest_sequence
           spark_python_task:
@@ -421,7 +532,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_39_most_common_prefix
           spark_python_task:
@@ -431,7 +545,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_40_rollup_salaries
           spark_python_task:
@@ -441,7 +558,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_41_first_streaming_app
           spark_python_task:
@@ -451,7 +571,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_42_streaming_csv
           spark_python_task:
@@ -461,7 +584,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
         - task_key: ex_43_email_classification
           spark_python_task:
@@ -471,7 +597,10 @@ resources:
             node_type_id: ${var.cluster_node_type}
             num_workers: 0
             spark_conf:
+              spark.databricks.cluster.profile: singleNode
               spark.master: "local[*]"
+            custom_tags:
+              ResourceClass: SingleNode
 
 targets:
   default:
