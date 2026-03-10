@@ -33,7 +33,7 @@ resources:
       tasks:
         - task_key: run_pipeline
           notebook_task:
-            notebook_path: notebooks/example_pipeline
+            notebook_path: notebooks/example_pipeline.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -45,7 +45,7 @@ resources:
       tasks:
         - task_key: ex_01_split_variable_delimiter
           notebook_task:
-            notebook_path: exercises/01_split_variable_delimiter
+            notebook_path: exercises/01_split_variable_delimiter.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -58,7 +58,7 @@ resources:
 
         - task_key: ex_02_most_important_rows_priority
           notebook_task:
-            notebook_path: exercises/02_most_important_rows_priority
+            notebook_path: exercises/02_most_important_rows_priority.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -71,7 +71,7 @@ resources:
 
         - task_key: ex_03_adding_count_to_source
           notebook_task:
-            notebook_path: exercises/03_adding_count_to_source
+            notebook_path: exercises/03_adding_count_to_source.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -84,7 +84,7 @@ resources:
 
         - task_key: ex_04_limiting_collect_set
           notebook_task:
-            notebook_path: exercises/04_limiting_collect_set
+            notebook_path: exercises/04_limiting_collect_set.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -97,7 +97,7 @@ resources:
 
         - task_key: ex_05_structs_column_names_values
           notebook_task:
-            notebook_path: exercises/05_structs_column_names_values
+            notebook_path: exercises/05_structs_column_names_values.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -110,7 +110,7 @@ resources:
 
         - task_key: ex_06_merge_two_rows
           notebook_task:
-            notebook_path: exercises/06_merge_two_rows
+            notebook_path: exercises/06_merge_two_rows.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -123,7 +123,7 @@ resources:
 
         - task_key: ex_07_exploding_structs_array
           notebook_task:
-            notebook_path: exercises/07_exploding_structs_array
+            notebook_path: exercises/07_exploding_structs_array.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -136,7 +136,7 @@ resources:
 
         - task_key: ex_08_display_spark_sql_version
           notebook_task:
-            notebook_path: exercises/08_display_spark_sql_version
+            notebook_path: exercises/08_display_spark_sql_version.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -149,7 +149,7 @@ resources:
 
         - task_key: ex_09_using_csv_data_source
           notebook_task:
-            notebook_path: exercises/09_using_csv_data_source
+            notebook_path: exercises/09_using_csv_data_source.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -162,7 +162,7 @@ resources:
 
         - task_key: ex_10_finding_ids_word_in_array
           notebook_task:
-            notebook_path: exercises/10_finding_ids_word_in_array
+            notebook_path: exercises/10_finding_ids_word_in_array.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -175,7 +175,7 @@ resources:
 
         - task_key: ex_11_dataset_flatmap
           notebook_task:
-            notebook_path: exercises/11_dataset_flatmap
+            notebook_path: exercises/11_dataset_flatmap.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -188,7 +188,7 @@ resources:
 
         - task_key: ex_12_reverse_engineering_show
           notebook_task:
-            notebook_path: exercises/12_reverse_engineering_show
+            notebook_path: exercises/12_reverse_engineering_show.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -201,7 +201,7 @@ resources:
 
         - task_key: ex_13_flattening_array_columns
           notebook_task:
-            notebook_path: exercises/13_flattening_array_columns
+            notebook_path: exercises/13_flattening_array_columns.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -214,7 +214,7 @@ resources:
 
         - task_key: ex_14_most_populated_cities
           notebook_task:
-            notebook_path: exercises/14_most_populated_cities
+            notebook_path: exercises/14_most_populated_cities.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -227,7 +227,7 @@ resources:
 
         - task_key: ex_15_upper_standard_function
           notebook_task:
-            notebook_path: exercises/15_upper_standard_function
+            notebook_path: exercises/15_upper_standard_function.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -240,7 +240,7 @@ resources:
 
         - task_key: ex_16_explode_standard_function
           notebook_task:
-            notebook_path: exercises/16_explode_standard_function
+            notebook_path: exercises/16_explode_standard_function.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -253,7 +253,7 @@ resources:
 
         - task_key: ex_17_difference_days_dates
           notebook_task:
-            notebook_path: exercises/17_difference_days_dates
+            notebook_path: exercises/17_difference_days_dates.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -266,7 +266,7 @@ resources:
 
         - task_key: ex_18_counting_years_months
           notebook_task:
-            notebook_path: exercises/18_counting_years_months
+            notebook_path: exercises/18_counting_years_months.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -279,7 +279,7 @@ resources:
 
         - task_key: ex_19_null_fields_schema
           notebook_task:
-            notebook_path: exercises/19_null_fields_schema
+            notebook_path: exercises/19_null_fields_schema.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -292,7 +292,7 @@ resources:
 
         - task_key: ex_20_add_days_to_date
           notebook_task:
-            notebook_path: exercises/20_add_days_to_date
+            notebook_path: exercises/20_add_days_to_date.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -305,7 +305,7 @@ resources:
 
         - task_key: ex_21_using_udfs
           notebook_task:
-            notebook_path: exercises/21_using_udfs
+            notebook_path: exercises/21_using_udfs.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -318,7 +318,7 @@ resources:
 
         - task_key: ex_22_calculating_aggregations
           notebook_task:
-            notebook_path: exercises/22_calculating_aggregations
+            notebook_path: exercises/22_calculating_aggregations.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -331,7 +331,7 @@ resources:
 
         - task_key: ex_23_max_values_per_group
           notebook_task:
-            notebook_path: exercises/23_max_values_per_group
+            notebook_path: exercises/23_max_values_per_group.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -344,7 +344,7 @@ resources:
 
         - task_key: ex_24_collect_values_per_group
           notebook_task:
-            notebook_path: exercises/24_collect_values_per_group
+            notebook_path: exercises/24_collect_values_per_group.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -357,7 +357,7 @@ resources:
 
         - task_key: ex_25_multiple_aggregations
           notebook_task:
-            notebook_path: exercises/25_multiple_aggregations
+            notebook_path: exercises/25_multiple_aggregations.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -370,7 +370,7 @@ resources:
 
         - task_key: ex_26_pivot_single_row_matrix
           notebook_task:
-            notebook_path: exercises/26_pivot_single_row_matrix
+            notebook_path: exercises/26_pivot_single_row_matrix.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -383,7 +383,7 @@ resources:
 
         - task_key: ex_27_pivot_cost_avg_collect
           notebook_task:
-            notebook_path: exercises/27_pivot_cost_avg_collect
+            notebook_path: exercises/27_pivot_cost_avg_collect.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -396,7 +396,7 @@ resources:
 
         - task_key: ex_28_pivoting_multiple_columns
           notebook_task:
-            notebook_path: exercises/28_pivoting_multiple_columns
+            notebook_path: exercises/28_pivoting_multiple_columns.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -409,7 +409,7 @@ resources:
 
         - task_key: ex_29_exam_assessment_report
           notebook_task:
-            notebook_path: exercises/29_exam_assessment_report
+            notebook_path: exercises/29_exam_assessment_report.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -422,7 +422,7 @@ resources:
 
         - task_key: ex_30_long_to_wide_format
           notebook_task:
-            notebook_path: exercises/30_long_to_wide_format
+            notebook_path: exercises/30_long_to_wide_format.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -435,7 +435,7 @@ resources:
 
         - task_key: ex_31_bestsellers_per_genre
           notebook_task:
-            notebook_path: exercises/31_bestsellers_per_genre
+            notebook_path: exercises/31_bestsellers_per_genre.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -448,7 +448,7 @@ resources:
 
         - task_key: ex_32_salary_gap_per_dept
           notebook_task:
-            notebook_path: exercises/32_salary_gap_per_dept
+            notebook_path: exercises/32_salary_gap_per_dept.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -461,7 +461,7 @@ resources:
 
         - task_key: ex_33_running_total
           notebook_task:
-            notebook_path: exercises/33_running_total
+            notebook_path: exercises/33_running_total.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -474,7 +474,7 @@ resources:
 
         - task_key: ex_34_diff_consecutive_rows
           notebook_task:
-            notebook_path: exercises/34_diff_consecutive_rows
+            notebook_path: exercises/34_diff_consecutive_rows.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -487,7 +487,7 @@ resources:
 
         - task_key: ex_35_arrays_to_string
           notebook_task:
-            notebook_path: exercises/35_arrays_to_string
+            notebook_path: exercises/35_arrays_to_string.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -500,7 +500,7 @@ resources:
 
         - task_key: ex_36_percent_rank
           notebook_task:
-            notebook_path: exercises/36_percent_rank
+            notebook_path: exercises/36_percent_rank.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -513,7 +513,7 @@ resources:
 
         - task_key: ex_37_first_non_null_per_group
           notebook_task:
-            notebook_path: exercises/37_first_non_null_per_group
+            notebook_path: exercises/37_first_non_null_per_group.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -526,7 +526,7 @@ resources:
 
         - task_key: ex_38_longest_sequence
           notebook_task:
-            notebook_path: exercises/38_longest_sequence
+            notebook_path: exercises/38_longest_sequence.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -539,7 +539,7 @@ resources:
 
         - task_key: ex_39_most_common_prefix
           notebook_task:
-            notebook_path: exercises/39_most_common_prefix
+            notebook_path: exercises/39_most_common_prefix.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -552,7 +552,7 @@ resources:
 
         - task_key: ex_40_rollup_salaries
           notebook_task:
-            notebook_path: exercises/40_rollup_salaries
+            notebook_path: exercises/40_rollup_salaries.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -565,7 +565,7 @@ resources:
 
         - task_key: ex_41_first_streaming_app
           notebook_task:
-            notebook_path: exercises/41_first_streaming_app
+            notebook_path: exercises/41_first_streaming_app.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -578,7 +578,7 @@ resources:
 
         - task_key: ex_42_streaming_csv
           notebook_task:
-            notebook_path: exercises/42_streaming_csv
+            notebook_path: exercises/42_streaming_csv.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
@@ -591,7 +591,7 @@ resources:
 
         - task_key: ex_43_email_classification
           notebook_task:
-            notebook_path: exercises/43_email_classification
+            notebook_path: exercises/43_email_classification.py
           new_cluster:
             spark_version: ${var.cluster_spark_version}
             node_type_id: ${var.cluster_node_type}
